@@ -438,7 +438,7 @@ a:focus {
 .topbar .nav-item .nav-link .img-profile {
   height: 2rem;
   width: 2rem;
-  border: 1px solid #fafafa
+  border: 1px solid #224dd8
 }
 
 .topbar {
@@ -456,11 +456,11 @@ a:focus {
 }
 
 .topbar #sidebarToggleTop:hover {
-  background-color: #fafafa
+  background-color: #224dd8
 }
 
 .topbar #sidebarToggleTop:active {
-  background-color: #dddfeb
+  background-color: #224dd8
 }
 
 .topbar .navbar-search {
@@ -603,7 +603,7 @@ a:focus {
 .sidebar {
   min-height: 100vh;
   width: 14rem !important;
-  background-color: #fff !important;
+  background-color: #224dd8 !important;
   -webkit-box-shadow: 0 .15rem 1.75rem 0 rgba(58, 59, 69, .15) !important;
   box-shadow: 0 .15rem 1.75rem 0 rgba(58, 59, 69, .15) !important;
   z-index: 0

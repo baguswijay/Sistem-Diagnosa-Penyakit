@@ -1,8 +1,10 @@
+
 <x-app-layout>
     <x-slot name="title">
         Dashboard
     </x-slot>
 
+  
     <section class="row">
         <x-card-sum 
             text="Total User" 
@@ -191,6 +193,20 @@
                 }
               }
             });
+            
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6">
+                    <p>&copy; {{ now()->year }} Your Website</p>
+                </div>
+                <div class="col-md-6 text-md-right">
+                    <p>Version 1.0</p>
+                </div>
+            </div>
+        </div>
+    </footer>
         </script>
     </x-slot>
 </x-app-layout>
